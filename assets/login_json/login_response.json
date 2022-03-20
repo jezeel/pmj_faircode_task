@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "name": "PM Jesil",
+    "email": "pmjxx1@gmail.com",
+    "mobil": "8547142536",
+    "age": "24",
+    "sex": "male"
+  },
+  "message": "User Login Successfully"
+}
