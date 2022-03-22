@@ -59,7 +59,7 @@ class _LoginScreenState extends State<LoginScreen> {
       key: _scaffoldKey,
       body: Stack(
         children: [
-          loginBackgroundImage(),
+          LoginBackgroundImage(),
           SingleChildScrollView(
             child: Container(
               margin: const EdgeInsets.only(top: 160, left: 40, right: 40),
@@ -75,6 +75,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     radius: 80.0,
                     backgroundColor: Colors.grey[100],
                     child: ClipRRect(
+                      child: Text("Vedic", style: TextStyle(
+                        color: Colors.lightGreen, fontSize: 35,
+                      ),),
                       borderRadius: BorderRadius.circular(50.0),
                     ),
                   ),
